@@ -1,1 +1,183 @@
-/* Your CSS goes here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.header {
+    background-color:#222;
+    max-width: 100%;
+    padding: 15px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+   
+}
+
+
+.name h1 a{
+    color: #fff;
+    text-decoration: none;
+    text-transform:capitalize;
+    margin-left: 40px;
+}
+.name a:hover {
+    color: lightblue;
+}
+
+
+.nav {
+    flex-basis: 30%;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 15px;
+    
+}
+
+.nav a:hover{
+    color: lightblue;
+}
+
+.hero {
+    background-color: rgb(255, 136, 0);
+    margin-top: 0;
+    min-height: 300px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.hero h2 {
+    padding-top: 100px;
+    font-size: 4rem;
+}
+
+.hero p {
+    font-size: 3rem;
+    padding-top: 10px;
+}
+
+.showcase {
+    margin: 40px;
+    background-color:lightcyan;
+    padding: 50px;
+    text-align: justify;
+    border-radius: 7px;
+    
+}
+.showcase h2 {
+    text-align: center;
+    text-transform: capitalize ;
+    padding-bottom: 50px;
+}
+
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    margin: 20px;
+} 
+
+.row .left{
+    padding: 30px;
+    margin-top: 0;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.Pasta {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+
+.row .rigth {
+    padding: 30px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.Rice {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.col-3 {
+    padding: 30px;
+    text-align: justify;
+}
+
+.left-2 {
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 0;
+    margin-top: o;
+    
+}
+
+.cat {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 32px;
+}
+
+.rigth-2 {
+    padding: 30px;
+}
+
+.rigth-2 ul {
+    list-style-type: none;
+}
+
+.con {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 32px;
+}
+
+.copy {
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+    
+
+
